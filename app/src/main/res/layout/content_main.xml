@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                style="@style/MainMenus"
+                android:id="@+id/ib_menu1"
+                android:src="@drawable/ic_action_name"/>
+            <ImageButton
+                style="@style/MainMenus"
+                android:id="@+id/ib_menu2"
+                android:src="@drawable/ic_action_name2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                style="@style/MainMenus"
+                android:id="@+id/ib_menu3"
+                android:src="@drawable/ic_action_name3"/>
+            <ImageButton
+                style="@style/MainMenus"
+                android:id="@+id/ib_menu4"
+                android:src="@drawable/ic_action_name4"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
